@@ -1,6 +1,6 @@
 body {
 text-align: center;
-font-family:'arial', sans=serif;
+font-family:'Georgica', arial, helvetica;
 transition: background 0.5s;
 }
 
@@ -11,6 +11,11 @@ button {
     cursor: pointer;
     border: none;
     background: lightgreen;
-    color: white;
+    color:darkorchid;
     border-radius: 10 px;
+
+}
+
+button:hover {
+    background: darkgreen;
 }
